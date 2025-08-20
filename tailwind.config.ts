@@ -136,13 +136,49 @@ export default {
 					'50%': {
 						transform: 'translateY(-10px)'
 					}
+				},
+				'balloon-float-1': {
+					'0%, 100%': {
+						transform: 'translateY(0px) translateX(0px) rotate(0deg)'
+					},
+					'33%': {
+						transform: 'translateY(-20px) translateX(10px) rotate(2deg)'
+					},
+					'66%': {
+						transform: 'translateY(-10px) translateX(-5px) rotate(-1deg)'
+					}
+				},
+				'balloon-float-2': {
+					'0%, 100%': {
+						transform: 'translateY(0px) translateX(0px) rotate(0deg)'
+					},
+					'33%': {
+						transform: 'translateY(-15px) translateX(-8px) rotate(-2deg)'
+					},
+					'66%': {
+						transform: 'translateY(-25px) translateX(12px) rotate(3deg)'
+					}
+				},
+				'balloon-float-3': {
+					'0%, 100%': {
+						transform: 'translateY(0px) translateX(0px) rotate(0deg)'
+					},
+					'33%': {
+						transform: 'translateY(-30px) translateX(5px) rotate(1deg)'
+					},
+					'66%': {
+						transform: 'translateY(-5px) translateX(-10px) rotate(-2deg)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'bounce-in': 'bounce-in 0.6s ease-out',
-				'float': 'float 3s ease-in-out infinite'
+				'float': 'float 3s ease-in-out infinite',
+				'balloon-float-1': 'balloon-float-1 6s ease-in-out infinite',
+				'balloon-float-2': 'balloon-float-2 8s ease-in-out infinite',
+				'balloon-float-3': 'balloon-float-3 7s ease-in-out infinite'
 			}
 		}
 	},
