@@ -1,55 +1,7 @@
-import balloonRed from "@/assets/balloon-red.png";
-import balloonBlue from "@/assets/balloon-blue.png";
-import balloonYellow from "@/assets/balloon-yellow.png";
-
 export const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
       <div className="absolute inset-0 bg-black/10"></div>
-      
-      {/* Floating Balloons */}
-      <div className="absolute inset-0 pointer-events-none">
-        <img 
-          src={balloonRed} 
-          alt="Red balloon" 
-          className="absolute top-20 left-10 w-16 h-24 opacity-80 animate-balloon-float-1"
-        />
-        <img 
-          src={balloonBlue} 
-          alt="Blue balloon" 
-          className="absolute top-32 right-20 w-20 h-30 opacity-75 animate-balloon-float-2"
-        />
-        <img 
-          src={balloonYellow} 
-          alt="Yellow balloon" 
-          className="absolute top-16 right-10 w-14 h-21 opacity-70 animate-balloon-float-3"
-        />
-        <img 
-          src={balloonRed} 
-          alt="Red balloon" 
-          className="absolute bottom-40 left-20 w-18 h-27 opacity-60 animate-balloon-float-2"
-        />
-        <img 
-          src={balloonBlue} 
-          alt="Blue balloon" 
-          className="absolute bottom-60 right-32 w-16 h-24 opacity-65 animate-balloon-float-1"
-        />
-        <img 
-          src={balloonYellow} 
-          alt="Yellow balloon" 
-          className="absolute top-40 left-32 w-12 h-18 opacity-55 animate-balloon-float-3"
-        />
-        <img 
-          src={balloonRed} 
-          alt="Red balloon" 
-          className="absolute bottom-20 right-16 w-14 h-21 opacity-50 animate-balloon-float-1"
-        />
-        <img 
-          src={balloonBlue} 
-          alt="Blue balloon" 
-          className="absolute top-60 left-16 w-16 h-24 opacity-60 animate-balloon-float-2"
-        />
-      </div>
       
       <div className="relative z-10 text-center px-4 animate-bounce-in">
         <h1 className="text-6xl md:text-8xl font-black text-white drop-shadow-2xl mb-6 animate-float">
