@@ -36,7 +36,7 @@ export const CelebrationGrid = () => {
   ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 bg-background">
+    <section className="py-20 px-4 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-black text-primary mb-4">
